@@ -4,7 +4,7 @@
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Websites\\Saas\\SaasNet\\SaasNet\\obj\\Release\\Package\\PackageTmp$" />
     <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Websites\\Saas\\SaasNet\\SaasNet\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-SaasNet-20161116011657.mdf;Initial Catalog=aspnet-SaasNet-20161116011657;Integrated Security=True" tags="">
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=SAAS;Initial Catalog=Saas-Manager;Integrated Security=False;User Id=saasWebUser;Password=password;MultipleActiveResultSets=True" tags="">
     <parameterEntry kind="XmlFile" scope="C:\\Websites\\Saas\\SaasNet\\SaasNet\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
 </parameters>
